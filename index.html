@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Fortune Telling</title>
+</head>
+
+<body>
+    <main class="content">
+        <header class="header">
+            <h1 class="header__title">How much toilet paper will you need in your future.</h1>
+            <img class="header__image" src="assets/images/question.png" alt="question" width="600">
+        </header>
+        <section class="intro">
+            <h2 class="intro__title">Why this test is important for your future</h2>
+            <p class="intro__text">This test helps you determine how much toilet paper you will be needing in you
+                future. In this pandemic it can be usefull to know how much you'll need to hoard.</p>
+                <img class ="intro__image" src="assets/images/fullroll.png" alt="full roll" width="120">
+        </section>
+        <section class="form">
+            <h2 class="form__title">The test</h2>
+            <form method="get" class="form-general form-register">
+                <fieldset>
+                    <legend class="form__subtitle">What is your favorite season?</legend>
+                    <div class="season-wrapper">
+                        <label>
+                            <input type="radio" name="season" value="1" class="season">
+                            <img src="assets/images/summer.png" alt="summer" width="300">
+                        </label>
+                        <label>
+                            <input type="radio" name="season" value="2" class="season">
+                            <img src="assets/images/fall.png" alt="fall" width="300">
+                        </label>
+                        <label>
+                            <input type="radio" name="season" value="3" class="season">
+                            <img src="assets/images/winter.png" alt="winter" width="300">
+                        </label>
+                        <label>
+                            <input type="radio" name="season" value="4" class="season">
+                            <img src="assets/images/spring.png" alt="spring" width="300">
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="form__subtitle">What do you see in this picture?</legend>
+                    <div class="description">
+                        <div class="description__image">
+                            <p class="wait">Answer the previous question first.</p>
+                        </div>
+                        <label>
+                            <input type="text" name="rorschach" class="rorschach" required
+                                placeholder="Describe what you see..." size="60" maxlength="50">
+                        </label>
+                    </div>
+                </fieldset>
+                <input class="form-general__submit-button" type="submit" value="Result" name="result" id="result">
+            </form>
+        </section>
+        <section class="result">
+            <h2 class="result__title">Result</h2>
+            <img class="result__image" src="assets/images/verticaal.png" alt="toilet roll rolled out" width="850">
+        </section>
+        <section class="warning">
+            <h2 class="warning__title">Warning</h2>
+            <p class="warning__text">Please do not hoard so that there is plenty of toilet paper for everyone. (This fortune teller is a joke)</p>
+            <img class="warning__image" src="assets/images/rolls_frown.png" alt="sad roll" width="80">
+        </section>
+
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
